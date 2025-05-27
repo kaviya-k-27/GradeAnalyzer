@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#b6b6b61a
+}
+.main{
+    margin: auto;
+    width:700px;
+
+    
+}
+.title{
+    text-align: center;
+}
+.title i{
+    padding:10px;
+}
+.inputPart{
+    margin-top: 20px;
+    /* border:1px solid black; */
+    padding: 20px;
+    border-radius:6px;
+    background-color: white;
+}
+p{
+    padding-top: 10px;
+    font-size: large;
+}
+input{
+    height:40px;
+    width:650px;
+    margin-bottom: 10px;
+    padding-left:15px;
+    border-radius: 6px;
+    border:1px solid rgb(201, 201, 201);
+}
+button{
+    padding:10px;;
+    width:650px;
+    background-color: rgb(84, 84, 241);
+    border:none;
+    border-radius:6px;
+    font-weight:700;
+    color:white;
+}
+.currentGrades,.inputPart,.last{
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.currentGrades{
+    margin-top:20px;
+    border-radius: 6px;
+    background-color: white;
+     padding: 20px;
+}
+#out{
+   display: flex;
+   justify-content: space-between;
+   width:650px;
+   align-items: center;
+ /* background-color:#d3d3d31a; */
+ padding:6px;
+ text-align: center;
+ margin-top: 20px;
+ border-radius: 5px;
+ text-transform:uppercase;
+}
+.finalOutput{
+    display: flex;
+    height:80px;
+    padding:10px;
+    gap:30px;
+    margin-top:20px ;
+    font-size: large;
+}
+#one,#two,#three{
+    width:calc(100%/3);
+        /* border:1px solid black; */
+        border-radius:10px;
+        text-align: center;
+        padding-block: 10px;
+        /* font-weight:larger ; */
+}
+.last{
+    margin-top: 20px;
+    padding:20px;
+    background-color: white;
+    border-radius: 5px;
+}
